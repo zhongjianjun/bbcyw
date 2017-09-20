@@ -1,0 +1,10 @@
+@import 'module/reset';//清除默认
+@import 'module/public';//公共样式
+@import 'module/font';//字体图标
+@import 'module/header';//头部
+@import 'module/footer';//尾部
+
+.page_640{width:1200px;}
+
+.show-pic .img-box .link,.topic-list .topic-l,.related-box .related-l,.reso-box .reso-img{position: relative;}
+.show-pic .img-box .page-num,.topic-list .topic-l .page-num,.related-box .related-l .page-num,.reso-box .reso-img .page-num{position:absolute;right:0;bottom:0;background-color:rgba(0,0,0,.4);color:#fff;height:30px;line-height:30px;font-size:14px;padding:0 8px;}
